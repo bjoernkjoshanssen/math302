@@ -1,8 +1,11 @@
+/-
+Copyright (c) 2026 Bjørn Kjos-Hanssen. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Bjørn Kjos-Hanssen
+-/
 import Mathlib
 
-open Real
-
-/-- **Exercise 1.1.1** — general solution of the first-order linear ODE `y' = 3 - 2y`.
+/-! **Exercise 1.1.1** — general solution of the first-order linear ODE `y' = 3 - 2y`.
 
 A differentiable function `y : ℝ → ℝ` satisfies `deriv y t = 3 - 2 * y t` for all `t`
 if and only if it has the form `y t = 3/2 + C * Real.exp (-2 * t)` for some constant
